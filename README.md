@@ -16,7 +16,7 @@ NCD has been designing and manufacturing computer control products since 1995.  
 
 ### How to use this library
 
-The libary must be imported into your application.  This can be done through the Particle WEB IDE by selecting Libraries, then select the VCNL4010.  Click Include in App button.  Select the App you want to include the library in.  Finally click Add to this app.  For more information see [Particles's documentation] [sparkIncludeLibrary]
+The libary must be imported into your application.  This can be done through the Particle WEB IDE by selecting Libraries, then select the VCNL4010.  Click Include in App button.  Select the App you want to include the library in.  Finally click Add to this app.  For more information see [Particle's documentation] [sparkIncludeLibrary].
 
 ### Example use
 
@@ -25,12 +25,13 @@ Once the Library is included in your applicaiton you should see an include state
 //This #include statement was automatically added by the Particle IDE.
 #include "VCNL4010/VCNL4010.h"
 ```
+
 Now you need to instanciate an object of the library for use in your application like this:
 ```cpp
 VCNL4010 sensor;
 ```
 
-Here is an example use case for the class
+Here is an example use case for the class:
 ```cpp
 // This #include statement was automatically added by the Particle IDE.
 #include "VCNL4010/VCNL4010.h"
@@ -51,8 +52,7 @@ void loop() {
 ```cpp
 void initialize();
 ```
->Must be called first before using the object.  This method should also be called any time communication with
->the controller is lost or broken to recover communication.
+>Must be called first before using the object.  This method should also be called any time communication with the controller is lost or broken to recover communication.
 
 
 ```cpp
