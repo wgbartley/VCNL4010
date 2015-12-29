@@ -6,5 +6,5 @@ public:
 	int ambientLight();
 	int proximity();
 private:
-
+    int address = 0x13;
 };

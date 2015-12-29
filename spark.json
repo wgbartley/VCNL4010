@@ -1,0 +1,7 @@
+{
+    "name": "VCNL4010",
+    "version": "0.0.1",
+    "author": "Travis Elliott <travis@controlanything.com>",
+    "license": "GNU",
+    "description": "Library intended for the operation of VCNL4010 Proximity and Ambient Light Sensor with Infrared Emitter I²C Mini Module"
+}

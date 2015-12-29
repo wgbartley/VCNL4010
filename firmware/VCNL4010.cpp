@@ -1,6 +1,6 @@
 #include "VCNL4010.h"
+#include "spark_wiring_usbserial.h"
 
-int address = 19;//hex = 0x13
 
 void VCNL4010::initialize(){
     Wire.begin();
